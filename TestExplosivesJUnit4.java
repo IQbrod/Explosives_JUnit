@@ -59,7 +59,7 @@ public class TestExplosivesJUnit4 {
 		}  
 	}*/
 
-	/*@Test
+	@Test
 	public void test_P1() {
 		try{
 			e=new Explosives();
@@ -71,9 +71,9 @@ public class TestExplosivesJUnit4 {
 		} 	catch(JmlAssertionError e){
 				handleJMLAssertionError(e);		
 		}
-	}*/
+	}
 
-	/*@Test
+	@Test
 	public void test_P2() {
 		try{
 			e=new Explosives();
@@ -85,9 +85,9 @@ public class TestExplosivesJUnit4 {
 		} 	catch(JmlAssertionError e){
 				handleJMLAssertionError(e);		
 		}
-	}*/
+	}
 
-	/*@Test 
+	@Test 
 	public void test_P3() {
 		try{
 			e=new Explosives();
@@ -97,9 +97,9 @@ public class TestExplosivesJUnit4 {
 		} 	catch(JmlAssertionError e){
 				handleJMLAssertionError(e);		
 		}
-	}*/
+	}
 
-	/*@Test
+	@Test
 	public void test_P4() {
 		try{
 			e=new Explosives();	
@@ -109,9 +109,9 @@ public class TestExplosivesJUnit4 {
 		} 	catch(JmlAssertionError e){
 				handleJMLAssertionError(e);		
 		}
-	}*/
+	}
 
-	/*@Test
+	@Test
 	public void test_P5() {
 		try{
 			e=new Explosives();	
@@ -119,12 +119,19 @@ public class TestExplosivesJUnit4 {
 		} 	catch(JmlAssertionError e){
 				handleJMLAssertionError(e);		
 		}
-	}*/
-
-	@Test
-	public void test_P6() {
-		/* Impossible sans modifier les éléments "public" */
 	}
+
+	/*@Test
+	public void test_P7() {
+		try{
+			e=new Explosives();	
+			e.add_incomp("Prod_Dyna","Prod_Mite");
+			e.add_assign("Bat_1","Prod_Dyna");
+			e.add_assign("Bat_1","Prod_Mite");	
+		} 	catch(JmlAssertionError e){
+				handleJMLAssertionError(e);		
+		}
+	}*/
 
 
 }

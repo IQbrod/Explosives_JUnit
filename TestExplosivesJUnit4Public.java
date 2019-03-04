@@ -43,7 +43,7 @@ public class TestExplosivesJUnit4Public {
 	     System.out.println("\n inconclusive tests: "+nb_inconclusive+" -- failures : "+nb_fail );
 	}
 
-	@Test
+	/*@Test
 	public void test_P6() {
 		try{
 			e=new Explosives();	
@@ -53,7 +53,5 @@ public class TestExplosivesJUnit4Public {
 		} 	catch(JmlAssertionError e){
 				handleJMLAssertionError(e);		
 		}
-	}
-
-
+	}*/
 }

@@ -16,7 +16,7 @@ public class ExplosivesMain{
 	System.out.println("Assigning Prod_Mite to Bat_2");
 	e.add_assign("Bat_2","Prod_Mite");
 	System.out.println("Assigning Prod_Glycerine to Bat_1");
-	e.add_assign("Bat_1","Prod_Glycerine");
+	e.add_assign("Bat_2","Prod_Glycerine");
 	System.out.println("It should have exploded at this point");
 	System.out.println("-------------------------");
 	System.out.println("Incompatibilities");
